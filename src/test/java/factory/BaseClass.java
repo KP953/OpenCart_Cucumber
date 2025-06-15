@@ -98,7 +98,7 @@ public class BaseClass {
 	}
 
 	public static Properties getProperties() throws IOException {
-		FileReader file = new FileReader("C:\\Users\\pratik.kadam\\eclipse-workspace\\OpenCart_Cucumber\\src\\test\\resources\\config.properties");
+		FileReader file = new FileReader(".\\src\test\resources\config.properties");
 		p = new Properties();
 		p.load(file);
 		return p;
